@@ -1,0 +1,36 @@
+.navbar {
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .navbar-menu-btn {
+        display: none;
+    }
+
+    .navbar-brand {
+        margin-left: 3.125rem;
+    }
+
+    .navbar-nav {
+        display: flex;
+
+        & li:not(:last-child) {
+            margin-right: 3.75rem;
+        }
+
+        .navbar-link {
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        .navbar-link:hover {
+            color: hsl(214, 84%, 56%);
+            ;
+        }
+
+    }
+
+
+}
